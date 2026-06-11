@@ -1,4 +1,7 @@
 @extends('layout.main')
+@push('title')
+<title>Home Page</title>
+@endpush
 @section('content')
 
 <!-- slider start here  -->
@@ -126,7 +129,7 @@
                     </a>
                     <div class="card-body">
                         <a href="#" class="text-decoration-none text-dark">
-                            <h6 class="card-title text-center">Cumpus Shoes</h6>
+                            <h6 class="card-title text-center">Apple Watch</h6>
                         </a>
                         <h4 class="card-title text-center">$99.99</h4>
                     </div>
@@ -139,7 +142,7 @@
                     </a>
                     <div class="card-body">
                         <a href="#" class="text-decoration-none text-dark">
-                            <h6 class="card-title text-center">Apple Watch</h6>
+                            <h6 class="card-title text-center">Camera</h6>
                         </a>
                         <h4 class="card-title text-center">$99.99</h4>
                     </div>
@@ -152,7 +155,7 @@
                     </a>
                     <div class="card-body overflow-hidden ">
                         <a href="#" class="text-decoration-none text-dark">
-                            <h6 class="card-title text-center">Nike Cap</h6>
+                            <h6 class="card-title text-center">LED</h6>
                         </a>
                         <h4 class="card-title text-center">$99.99</h4>
                     </div>
@@ -165,7 +168,7 @@
                     </a>
                     <div class="card-body">
                         <a href="#" class="text-decoration-none text-dark">
-                            <h6 class="card-title text-center">Wooden Chair</h6>
+                            <h6 class="card-title text-center">Washing Machine</h6>
                         </a>
                         <h4 class="card-title text-center">$99.99</h4>
                     </div>
@@ -222,7 +225,7 @@
                     </a>
                     <div class="card-body overflow-hidden ">
                         <a href="#" class="text-decoration-none text-dark">
-                            <h6 class="card-title text-center">Nike Cap</h6>
+                            <h6 class="card-title text-center">LED</h6>
                         </a>
                         <h4 class="card-title text-center">$99.99</h4>
                     </div>
@@ -235,7 +238,7 @@
                     </a>
                     <div class="card-body">
                         <a href="#" class="text-decoration-none text-dark">
-                            <h6 class="card-title text-center">Wooden Chair</h6>
+                            <h6 class="card-title text-center">Washing Machine</h6>
                         </a>
                         <h4 class="card-title text-center">$99.99</h4>
                     </div>
@@ -251,7 +254,7 @@
     <div class="container">
         <div class="d-flex">
             <div class="p-2 flex-grow-1">
-                <h2 class="mb-3">Recently Viewed</h2>
+                <h2 class="mb-3">Related Products</h2>
             </div>
             <div class="p-2">
                 <a href="#" class="text-decoration-none text-sm text-light btn btn-primary btn-sm">View All</a>
@@ -315,4 +318,6 @@
     </div>
 </section>
 <!-- Recently-viewed section end here  -->
+
+
 @endsection
