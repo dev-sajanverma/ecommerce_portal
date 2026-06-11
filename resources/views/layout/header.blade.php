@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home Page</title>
+    @stack('title')
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
@@ -52,22 +52,22 @@
 
                 <ul class="nav justify-content-center text-nowrap pb-2">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Phone</a>
+                        <a class="nav-link text-dark" href="{{url('category/phone')}}">Phone</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Fashion</a>
+                        <a class="nav-link text-dark" href="{{url('category/fashion')}}">Fashion</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Electronics</a>
+                        <a class="nav-link text-dark" href="{{url('category/Electronics/phone')}}">Electronics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Furniture</a>
+                        <a class="nav-link text-dark" href="{{url('category/furniture')}}">Furniture</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Grocery</a>
+                        <a class="nav-link text-dark" href="{{url('category/grocery')}}">Grocery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Appliances</a>
+                        <a class="nav-link text-dark" href="{{url('category/appliances')}}">Appliances</a>
                     </li>
                 </ul>
             </div>
