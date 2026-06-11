@@ -1,0 +1,32 @@
+.theme-navbar{
+    background-color: #0066cc;
+}
+
+.theme-orange-btn{
+    background-color: #ff6600;
+    
+}
+.theme-green-btn{
+    background-color: #28a745;
+}
+.theme-orange-btn:hover, 
+.theme-green-btn:hover {
+    background-color: white;
+    color: black !important;
+}
+.theme-footer{
+    background-color: #0066cc;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+.theme-navbar-light{
+    background-color: #cde6ff;
+}
+
+.theme-products img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    
+}
