@@ -36,7 +36,7 @@
                 </div>
                 <div class="d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-2 gap-lg-0">
                     <a href="#" class="text-decoration-none text-light me-lg-3 my-2 my-lg-0 text-sm">Become a Seller</a>
-                    <a href="#" class="btn theme-green-btn text-light btn-sm me-lg-2 w-100 w-lg-30"><i class="fas fa-shopping-cart"></i> Cart</a>
+                    <a href="{{url('cart-list/product')}}" class="btn theme-green-btn text-light btn-sm me-lg-2 w-100 w-lg-30"><i class="fas fa-shopping-cart"></i> Cart</a>
                     <a href="#" class="btn theme-orange-btn text-light btn-sm w-100 w-lg-30"><i class="fa-solid fa-user"></i> Login</a>
                 </div>
 
