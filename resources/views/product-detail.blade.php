@@ -40,7 +40,7 @@
 
                     </div>
                     <div>
-                        <a href="#" class="btn btn-success btn-sm">Add to Cart</a>
+                        <a href="{{url('cart-list/product')}}" class="btn btn-success btn-sm">Add to Cart</a>
                         <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
                     </div>
                 </div>
