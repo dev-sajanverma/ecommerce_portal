@@ -140,7 +140,7 @@
                         </div>
                     </div>
                     <div class="d-grid mt-3">
-                        <a href="#" class="btn btn-primary">Proceed to Checkout</a>
+                        <a href="{{url('checkout/check')}}" class="btn btn-primary">Proceed to Checkout</a>
                     </div>
                 </div>
             </div>
