@@ -23,4 +23,21 @@ class UserController extends Controller
     {
         return view('login1');
     }
+
+    // user dashboard start here 
+    function index () {
+        return view('user.index');
+    }
+
+    function userHistory (){
+        return view('user.userhistory');
+    }
+
+    function settings () {
+        return view ('user.settings');
+    }
+
+    function details () {
+        return view('user.details');
+    }
 }
